@@ -146,7 +146,7 @@ iframe{
 .time{
     color:blue;
     position: relative;
-    top:40%;
+    top:50%;
     left:85%;
     font-size:20px;
     font-weight: bold;
@@ -161,7 +161,7 @@ iframe{
     color:white;
     position: relative;
     left:32%;
-    top:170px;
+    top:200px;
 
     }
     #btn{
