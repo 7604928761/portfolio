@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="port.css">
+    
+</head>
+<body>
+    <div class="hero">
+
+        <h2 class="name">NANDHINI RAMANATHAN</h2>
+        <a href="">Home</a>
+        <a href="#about1">AboutMe</a>
+        <a href="#skill">Skills</a>
+        <a href="#cnt">Contact</a>
+        
+
+        <div class="content">
+            <h3>Hello It's me</h3><br>
+            <h2>NandhiniRamanathan</h2><br>
+            <h3>I am a Frontend Developer</h3>
+        </div>
+        <div class="clock">
+            <div class="time">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span id="format">AM</span>
+            </div>
+    
+            <script>
+                function time(){
+                let clock=new Date()
+                let hr=clock.getHours()
+                let min=clock.getMinutes()
+                let sec=clock.getSeconds()
+                let hours=document.querySelector("#hours")
+                if(hr>=12)
+                format.innerHTML="PM"
+                if(hr>12)
+                hr=hr-12
+                if(hr<10)
+                hr="0"+hr
+                hours.innerHTML=hr;
+                let minutes=document.querySelector("#minutes")
+                if(min<10)
+                    min="0"+min
+                minutes.innerHTML=min;
+                let seconds=document.querySelector("#seconds")
+                if(sec<10)
+                sec="0"+sec
+                seconds.innerHTML=sec;
+                
+                }
+                setInterval(time,1000)
+            </script>
+        </div>
+
+        <div>
+            <a href="Nandy.pdf"class="rm" download>Download CV</a>
+        </div>
+    </div>
+        <div class="about" id="about1">
+            <img src="nand.jpg" class="nand">
+            <div class="cont">
+            <h2 class="abt">AboutMe</h2>
+            <p class="para">I am a Frontend developer with a bachelor degree in Computer Scienece and Engineering.I work on the client side of development,
+                 utilizing technologies such as html,css and javascript 
+                 to create visually appealing and interactive elements that users interact with directly in their web browsers.I can provide clean code and pixel perfect design.</p>
+                 <div><button class="btn">Let's Talk</button></div>
+                </div>
+                
+</div>
+
+     
+<div class="skills" id="skill">
+    <h2 class="sk">Projects</h2>
+    <div class="bx">
+    <div><a href="acolor.html"><img src="color.jpg" class="color"></a></div>
+    <div><a href="otp.html"><img src="otpg.jpg" class="otp"></a></div>
+    <div><a href="dtime.html"><img src="dc.jpg" class="dtime"></a></div>
+    <div><a href="Awall.html"><img src="atime.jpg" class="atime"></a></div>
+    <div><a href="convert.html"><img src="convert.jpg" class="length"></a></div>
+    <div><a href="car.html"><img src="park.jpg" class="car"></a></div>
+    </div>
+</div>
+   <div id="cnt">
+   <div class="contact">
+    <p class="ct">Let Me Get You A Beautiful Website.</p>   
+    <button id="btn">Hire Me</button>
+    </div>
+
+    <div class="ft">
+        <p class="end">Nandhini Ramanathan</p>
+        <br>
+        <p class="ed">For More Details</p>
+        <br><br>
+        <br>
+        <div class="social">
+          <!-- <a href="mailto:nandhini4122001@gmail.com"><img src="em.png" class="em"></a> -->
+          <a href="https://www.linkedin.com/in/nandhini4122001"><img src="link.png" class="link"></a>
+          <a href="https://github.com/"><img src="gt.png" class="gt"></a>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
