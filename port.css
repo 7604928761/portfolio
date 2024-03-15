@@ -160,8 +160,8 @@ iframe{
     font-size: 15px;
     color:white;
     position: relative;
-    left:30%;
-    top:180px;
+    left:32%;
+    top:170px;
 
     }
     #btn{
@@ -210,7 +210,7 @@ iframe{
     }
     .gt{
         position: relative;
-        right:16%;
+        right:15.5%;
     }
     .gt:hover{
        transition: 1s;
