@@ -206,11 +206,11 @@ iframe{
     }
     .link{
         position: relative;
-        right:15%;
+        right:15.5%;
     }
     .gt{
         position: relative;
-        right:17%;
+        right:16.5%;
     }
     .gt:hover{
        transition: 1s;
