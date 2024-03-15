@@ -161,7 +161,7 @@ iframe{
     color:white;
     position: relative;
     left:35%;
-    top:130px;
+    top:170px;
 
     }
     #btn{
@@ -210,7 +210,7 @@ iframe{
     }
     .gt{
         position: relative;
-        right:16.5%;
+        right:17%;
     }
     .gt:hover{
        transition: 1s;
