@@ -146,7 +146,7 @@ iframe{
 .time{
     color:blue;
     position: relative;
-    top:50%;
+    top:500px;
     left:85%;
     font-size:20px;
     font-weight: bold;
@@ -160,7 +160,7 @@ iframe{
     font-size: 15px;
     color:white;
     position: relative;
-    left:32%;
+    left:30%;
     top:200px;
 
     }
@@ -206,7 +206,7 @@ iframe{
     }
     .link{
         position: relative;
-        right:13%;
+        right:14%;
     }
     .gt{
         position: relative;
